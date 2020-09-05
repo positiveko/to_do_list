@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  font-weignt: bold;
+  font-family: sans-serif;
+  text-align: center;
+  color: midnightblue;
+  border-color: grey;
+  border: 5px solid gray;
+  border-radius: 50%;
+  padding: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 10;
+  width: auto;
+}
+
+ul li {
+  border: 1px solid grey;
+  background: lightpink;
+  padding: 1px 40px;
+  margin: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+
+ul li:hover {
+  background: #ddd;
+}
+
+ul li.checked {
+  background: #888;
+  color: #223555;
+  text-decoration: line-through;
+}
+
+ul li.checked::before {
+  content: ' ';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 2px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 2px 10px;
+}
+
+.close:hover {
+  background-color: darkgray;
+  color: white;
+}
+
+#myInput {
+  margin: 5px 10px;
+  height: 28px;
+  min-width:80%;
+}
