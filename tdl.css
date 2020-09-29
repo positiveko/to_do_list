@@ -29,7 +29,6 @@ ul li {
   position: relative;
 }
 
-
 ul li:hover {
   background: #ddd;
 }
@@ -53,14 +52,14 @@ ul li.checked::before {
   width: 7px;
 }
 
-.close {
+.closeBtn {
   position: absolute;
   right: 0;
   top: 0;
   padding: 2px 10px;
 }
 
-.close:hover {
+.closeBtn:hover {
   background-color: darkgray;
   color: white;
 }
@@ -68,5 +67,5 @@ ul li.checked::before {
 #myInput {
   margin: 5px 10px;
   height: 28px;
-  min-width:80%;
+  min-width: 80%;
 }
